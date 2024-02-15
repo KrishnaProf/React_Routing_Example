@@ -27,6 +27,7 @@ function Appbar() {
     <div style={{backgroundColor: "Blue"}}>
       <button onClick={() => navigate("/")}>Landing</button>
       <button onClick={() => navigate("/dashboard")}>Dashboard</button>
+      <button>Test</button>
     </div>
   )
 }
